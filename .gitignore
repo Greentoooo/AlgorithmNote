@@ -31,5 +31,7 @@
 *.out
 *.app
 
-# VS code 设置
+# 自定义屏蔽
 .vscode
+bin
+test.cpp

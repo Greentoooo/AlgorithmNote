@@ -6,9 +6,9 @@ double myPow(double x, int n)
 {
     double ans = 1.0;
 
-    // 必须使用long来存储n，int的范围为-2147483648~2147483647
+    // 必须使用long long来存储n，int的范围为-2147483648~2147483647
     // 若n=-2147483648，取反时无法使用int存储。
-    long N=n;
+    long long N=n;
     if(N==0)
     {
         return ans;
